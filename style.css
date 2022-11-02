@@ -1,3 +1,23 @@
 body{
     background-color: #303030;
+    scroll-behavior: smooth;
 }
+
+#top-row{
+    border-radius: 2%;
+    background: linear-gradient(to bottom, rgba(187, 104, 183, 0.1), rgba(0,0,0,0));
+}
+
+#jumbotron{
+    color: white;
+    background: url(./images/cyberpunk.jpg), linear-gradient(to bottom, rgb(136, 62, 185), black);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+}
+
+#jumbotron > h1{
+    text-shadow: 0px 0px 5px rgb(236, 109, 198);
+}
+
